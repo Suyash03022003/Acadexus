@@ -90,8 +90,12 @@ section {
     align-items: center;
 }
 
-.section img {
+.image {
     width: 50%;
+}
+
+.section img {
+    width: 100%;
     height: auto;
 }
 
@@ -201,9 +205,26 @@ section {
 }
 
 .social_head {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.logo a {
+    width: 4%;
+}
+
+.logo a img {
+    width: 100%;
+    height: auto;
 }
 
 .join_head {
@@ -233,6 +254,11 @@ section {
     padding: 15px 20px;
     font-size: 15px;
     border: 1px solid rgba(119, 119, 119, 0.5);
+}
+
+.sign_up input:focus {
+    outline: 0;
+    border: 1px solid black;
 }
 
 .sign_up_button,
@@ -296,32 +322,6 @@ section {
 .apply_form_input:focus {
     outline: 0;
     border: 1px solid black;
-}
-
-.custom-file-input {
-    color: transparent;
-}
-
-.custom-file-input::-webkit-file-upload-button {
-    visibility: hidden;
-}
-
-.custom-file-input::before {
-    content: 'Attach Resume';
-    color: #757575;
-    display: inline-block;
-    outline: none;
-    white-space: nowrap;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-.custom-file-input:hover::before {
-    border-color: black;
-}
-
-.custom-file-input:active {
-    outline: 0;
 }
 
 .footer {
