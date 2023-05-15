@@ -25,6 +25,7 @@ nav {
 
 .active::before {
     content: "-";
+    margin-right: 3px;
 }
 
 .head {
