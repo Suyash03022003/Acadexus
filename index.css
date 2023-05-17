@@ -431,7 +431,7 @@ section {
     nav {
         justify-content: left;
         width: 100%;
-        padding: 5%;
+        padding: 2%;
     }
     
     .drawer {
@@ -444,6 +444,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        padding: 3%;
+    }
+
     .info .heading, .section_heading { 
         font-size: 30px;
     }
@@ -492,5 +496,11 @@ section {
 
     .left {
         margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    nav {
+        padding: 5%;
     }
 }
