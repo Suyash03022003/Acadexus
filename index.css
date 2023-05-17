@@ -228,21 +228,6 @@ section {
     height: auto;
 }
 
-.join_head {
-    color: rgb(158, 145, 139);
-    font-size: 40px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.join_content {
-    color: rgb(94, 94, 94);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .sign_up {
     display: flex;
     align-items: center;
@@ -358,7 +343,6 @@ section {
 
 .contact {
     background-color: white;
-    padding: 5%;
     text-align: center;
 }
 
@@ -372,4 +356,24 @@ section {
     color: black;
     margin-bottom: 30px;
     color: #595959;
+}
+
+.hours p {
+    margin-bottom: 5px;
+    font-weight: normal;   
+}
+
+.hours_head {
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+
+.hours span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.hours {
+    margin-top: 50px !important;
+    padding-bottom: 50px;
 }
