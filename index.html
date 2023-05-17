@@ -10,16 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <title>Acadexus</title>
     <link rel="stylesheet" href="index.css">
+    <script src="js/index.js"></script>
 </head>
 
 <body>
     <div class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active" href="index.html">HOME</a>
+            <a href="blogs.html">BLOG</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
         <nav>
             <p class="head"><a href="index.html">ACADEXUS</a></p>
             <div class="links">
                 <a class="active" href="index.html">HOME</a>
                 <a href="blogs.html">BLOG</a>
                 <a href="contact.html">CONTACT US</a>
+            </div>
+            <div class="drawer">
+                <img src="images/drawer_light.png" id="drawer" alt="Drawer" onclick="openNav()">
             </div>
         </nav>
         <div class="hero">
