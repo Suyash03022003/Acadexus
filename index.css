@@ -324,7 +324,8 @@ section {
     padding: 5%;
 }
 
-.blogs_section p, .contact_p {
+.blogs_section p,
+.contact_p {
     color: rgb(89, 89, 89);
     font-size: 20px;
     text-align: center;
@@ -360,7 +361,7 @@ section {
 
 .hours p {
     margin-bottom: 5px;
-    font-weight: normal;   
+    font-weight: normal;
 }
 
 .hours_head {
@@ -392,6 +393,7 @@ section {
 }
 
 .sidenav {
+    display: none;
     height: 100%;
     width: 0;
     position: fixed;
@@ -433,7 +435,7 @@ section {
         width: 100%;
         padding: 2%;
     }
-    
+
     .drawer {
         visibility: visible;
     }
@@ -448,7 +450,12 @@ section {
         padding: 3%;
     }
 
-    .info .heading, .section_heading { 
+    .sidenav {
+        display: block;
+    }
+
+    .info .heading,
+    .section_heading {
         font-size: 30px;
     }
 
@@ -456,7 +463,8 @@ section {
         flex-direction: column;
     }
 
-    .image, .section .content {
+    .image,
+    .section .content {
         width: 100%;
         align-items: center;
         padding: 3%;
@@ -478,7 +486,8 @@ section {
         flex-direction: column;
     }
 
-    .about_section .about_c, .about_section img {
+    .about_section .about_c,
+    .about_section img {
         width: 100%;
     }
 
@@ -490,7 +499,8 @@ section {
         flex-direction: column;
     }
 
-    .right, .left {
+    .right,
+    .left {
         width: 100%;
     }
 
@@ -499,7 +509,7 @@ section {
     }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
     nav {
         padding: 5%;
     }
